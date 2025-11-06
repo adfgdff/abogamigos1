@@ -6,7 +6,7 @@
   font-family: "Montserrat Alternates", sans-serif;
 }
 body {
-  background-image: url(inicio.jpg);
+  background: url(inicio.jpg);
   background-attachment: fixed;
   background-size: cover; 
   background-position: center; 
@@ -37,18 +37,24 @@ body {
 .container .btn-menu,
 .logo {
   float: left;
-  line-height: 100px;
+  line-height: 25px;
+ 
 }
 .container .btn-menu label {
   color: #fff;
   font-size: 25px;
   cursor: pointer;
+  
 }
 .logo h1 {
-  color: #fff;
+ width: 25%;
   font-weight: 400;
   font-size: 22px;
   margin-left: 10px;
+  
+}
+img {
+  width: 325px;
 }
 .container .menu {
   float: right;
